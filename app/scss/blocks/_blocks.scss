@@ -1,0 +1,33 @@
+.main-head {
+	width: 100%;
+	text-align: center;
+}
+
+.nav {
+	list-style: none;
+	padding-left:0;
+}
+
+.banner,
+.main-footer {
+	text-align: center;
+
+	&-img{
+		border-radius: 50%;
+	}
+}
+
+.banner {
+	padding: 3.2em 0;
+	margin-bottom: 30px;
+	&-heading {
+		margin-bottom: 0;
+	}
+}
+
+
+.col {
+	padding: 0 1em;	
+}
+
+
