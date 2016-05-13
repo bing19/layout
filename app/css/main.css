@@ -26,7 +26,8 @@ img {
   max-width: 100%; }
 
 .logo {
-  font-size: 1.25em; }
+  font-size: 1.25em;
+  margin-top: 20px; }
 
 .logo-link,
 .nav-link {
@@ -84,7 +85,8 @@ img {
     margin: 0 auto; }
   .logo {
     float: left;
-    padding-top: 12px; }
+    padding-top: 12px;
+    margin-top: 0; }
   .main-nav {
     float: right; }
   .nav-item {
