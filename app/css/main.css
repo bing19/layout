@@ -77,3 +77,20 @@ img {
 
 .col {
   padding: 0 1em; }
+
+@media (min-width: 769px) {
+  .container {
+    width: 80%;
+    margin: 0 auto; }
+  .logo {
+    float: left;
+    padding-top: 12px; }
+  .main-nav {
+    float: right; }
+  .nav-item {
+    display: inline-block; }
+  .main-head:before, .main-head:after {
+    content: " ";
+    display: table; }
+  .main-head:after {
+    clear: both; } }
