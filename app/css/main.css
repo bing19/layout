@@ -70,6 +70,9 @@ img {
   .main-footer-img {
     border-radius: 50%; }
 
+.d {
+  background-attachment: white; }
+
 .banner {
   padding: 3.2em 0;
   margin-bottom: 30px; }
@@ -78,6 +81,10 @@ img {
 
 .col {
   padding: 0 1em; }
+  .col p {
+    margin-bottom: 3em; }
+  .col:last-child p {
+    margin-bottom: 0; }
 
 @media (min-width: 769px) {
   .container {
@@ -96,3 +103,17 @@ img {
     display: table; }
   .main-head:after {
     clear: both; } }
+
+.grid {
+  padding: 0; }
+
+img {
+  max-width: 100%;
+  width: 100%; }
+
+.grid-item {
+  padding: 5px;
+  min-height: 200px; }
+
+.grid-sizer {
+  width: 33.33333333%; }
